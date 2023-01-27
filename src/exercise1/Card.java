@@ -42,5 +42,12 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
-    }  
+         }
+    
+    @Override
+    public String toString()
+    {
+        return "the generated value on card is " + value + " and the suit is " + suit; 
+    }
+    
 }
